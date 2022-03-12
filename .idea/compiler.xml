@@ -11,6 +11,7 @@
         <module name="mall-ware" />
         <module name="renren-fast" />
         <module name="mall-order" />
+        <module name="mall-common" />
         <module name="mall-product" />
         <module name="mall-member" />
         <module name="renren-generator" />
@@ -18,6 +19,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mall-admin" target="1.8" />
+      <module name="mall-common" target="1.8" />
       <module name="mall-coupon" target="1.8" />
       <module name="mall-member" target="1.8" />
       <module name="mall-order" target="1.8" />
