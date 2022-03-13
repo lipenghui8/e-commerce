@@ -1,5 +1,5 @@
 server:
-  port: 80
+  port: 81
 
 # mysql
 spring:
@@ -7,9 +7,9 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     #MySQL配置
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://180.76.185.155:3306/mall_pms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://180.76.185.155:3306/mall_pms
     username: mall_pms
-    password: lph20020220
+    password: mall_pms
     #oracle配置
     #    driverClassName: oracle.jdbc.OracleDriver
     #    url: jdbc:oracle:thin:@47.100.206.162:1521:xe
