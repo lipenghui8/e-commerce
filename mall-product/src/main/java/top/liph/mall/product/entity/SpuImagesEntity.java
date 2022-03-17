@@ -8,11 +8,11 @@ import java.util.Date;
 import lombok.Data;
 
 /**
- * spuͼƬ
+ * spu图片
  * 
  * @author lipenghui
  * @email henulph@qq.com
- * @date 2022-03-13 18:27:18
+ * @date 2022-03-17 21:13:43
  */
 @Data
 @TableName("pms_spu_images")
@@ -29,19 +29,19 @@ public class SpuImagesEntity implements Serializable {
 	 */
 	private Long spuId;
 	/**
-	 * ͼƬ?
+	 * 图片名
 	 */
 	private String imgName;
 	/**
-	 * ͼƬ??ַ
+	 * 图片地址
 	 */
 	private String imgUrl;
 	/**
-	 * ˳?
+	 * 顺序
 	 */
 	private Integer imgSort;
 	/**
-	 * ?Ƿ?Ĭ??ͼ
+	 * 是否默认图
 	 */
 	private Integer defaultImg;
 

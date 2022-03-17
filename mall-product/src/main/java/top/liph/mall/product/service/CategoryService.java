@@ -7,11 +7,11 @@ import top.liph.mall.product.entity.CategoryEntity;
 import java.util.Map;
 
 /**
- * ??Ʒ???????
+ * 商品三级分类
  *
  * @author lipenghui
  * @email henulph@qq.com
- * @date 2022-03-13 18:27:17
+ * @date 2022-03-17 21:13:43
  */
 public interface CategoryService extends IService<CategoryEntity> {
 

@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: mall_pms
+    password: mall_pms
+    url: jdbc:mysql://180.76.185.155:3306/mall_pms
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto

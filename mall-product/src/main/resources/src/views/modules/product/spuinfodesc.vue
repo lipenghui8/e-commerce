@@ -26,13 +26,13 @@
         prop="spuId"
         header-align="center"
         align="center"
-        label="??Ʒid">
+        label="商品id">
       </el-table-column>
       <el-table-column
         prop="decript"
         header-align="center"
         align="center"
-        label="??Ʒ???">
+        label="商品介绍">
       </el-table-column>
       <el-table-column
         fixed="right"

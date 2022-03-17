@@ -7,11 +7,11 @@ import top.liph.mall.product.entity.BrandEntity;
 import java.util.Map;
 
 /**
- * Ʒ?
+ * 品牌
  *
  * @author lipenghui
  * @email henulph@qq.com
- * @date 2022-03-13 18:27:17
+ * @date 2022-03-17 21:13:43
  */
 public interface BrandService extends IService<BrandEntity> {
 

@@ -7,11 +7,11 @@ import top.liph.mall.product.entity.SpuCommentEntity;
 import java.util.Map;
 
 /**
- * ??Ʒ???
+ * 商品评价
  *
  * @author lipenghui
  * @email henulph@qq.com
- * @date 2022-03-13 18:27:17
+ * @date 2022-03-17 21:13:43
  */
 public interface SpuCommentService extends IService<SpuCommentEntity> {
 

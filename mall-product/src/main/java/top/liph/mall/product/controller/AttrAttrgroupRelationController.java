@@ -19,11 +19,11 @@ import top.liph.mall.common.utils.R;
 
 
 /**
- * ????&???Է???????
+ * 属性&属性分组关联
  *
  * @author lipenghui
  * @email henulph@qq.com
- * @date 2022-03-13 18:27:17
+ * @date 2022-03-17 21:13:43
  */
 @RestController
 @RequestMapping("product/attrattrgrouprelation")
@@ -35,7 +35,6 @@ public class AttrAttrgroupRelationController {
      * 列表
      */
     @RequestMapping("/list")
-    @RequiresPermissions("product:attrattrgrouprelation:list")
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = attrAttrgroupRelationService.queryPage(params);
 
@@ -47,7 +46,6 @@ public class AttrAttrgroupRelationController {
      * 信息
      */
     @RequestMapping("/info/{id}")
-    @RequiresPermissions("product:attrattrgrouprelation:info")
     public R info(@PathVariable("id") Long id){
 		AttrAttrgroupRelationEntity attrAttrgroupRelation = attrAttrgroupRelationService.getById(id);
 

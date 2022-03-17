@@ -19,11 +19,11 @@ import top.liph.mall.common.utils.R;
 
 
 /**
- * spu??Ϣ???
+ * spu信息介绍
  *
  * @author lipenghui
  * @email henulph@qq.com
- * @date 2022-03-13 18:27:18
+ * @date 2022-03-17 21:13:43
  */
 @RestController
 @RequestMapping("product/spuinfodesc")

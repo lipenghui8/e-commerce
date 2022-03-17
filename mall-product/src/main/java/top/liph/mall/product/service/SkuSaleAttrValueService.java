@@ -7,11 +7,11 @@ import top.liph.mall.product.entity.SkuSaleAttrValueEntity;
 import java.util.Map;
 
 /**
- * sku????????&ֵ
+ * sku销售属性&值
  *
  * @author lipenghui
  * @email henulph@qq.com
- * @date 2022-03-13 18:27:17
+ * @date 2022-03-17 21:13:43
  */
 public interface SkuSaleAttrValueService extends IService<SkuSaleAttrValueEntity> {
 

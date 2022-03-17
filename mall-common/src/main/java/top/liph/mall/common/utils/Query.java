@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package top.liph.common.utils;
+package top.liph.mall.common.utils;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
