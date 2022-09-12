@@ -1,6 +1,18 @@
-# e-commerce
+# 老师您好！
 
-## 技术栈
+# 这是一个商城项目，微服务清单及对应的文件夹如下：
+
+- mall-common：存放公共jar包
+- mall-coupon：优惠服务
+- mall-member：用户服务
+- mall-order：订单服务
+- mall-product：商品服务
+- mall-ware：购物车服务
+- renren-fast：后台
+- renren-fast-vue：前端
+- renren-generator：生成器，可根据数据库的数据项快速生成javabean
+
+## 技术栈如下：
 
 ### 前端
 
